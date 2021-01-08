@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+    date-format: yyyy-MM-dd
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-bp167ynfn2b2359k3xo.mysql.rds.aliyuncs.com:10075/market?useSSL=false
+    username: liuzhi
+    password: liuzhi@123
